@@ -1,0 +1,185 @@
+/*General styles*/
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/groupPic.jpg");
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+
+  font-family: helvetica;
+}
+
+header {
+  color:white;
+  font-size: 40px;
+}
+.dontShow{
+  display: none;
+}
+
+
+/* The whole container */
+
+#item {
+  display: flex;
+  justify-content: flex-start;
+  background: white;
+  max-width: 70%;
+  border-color: red;
+  border-width: 20px;
+  border-radius: 20px;
+}
+
+
+/* picture section */
+
+#pictureSection{
+  padding: 20px;  
+  display: flex;
+  flex-direction: column;
+}
+
+#itemImage {
+  height: 300px;  
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+#name {
+  font-size: 20px;
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #ccc; 
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+button:hover{
+  background: #999;
+}
+
+#imgWrapper{
+  position: relative;
+}
+
+#forward{
+  position: absolute;
+  top: 133px;
+  left: 196px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+} 
+
+#forward:hover,#backward:hover {
+  font-size: 30px;
+}
+
+#backward{
+  position:absolute;
+  top: 133px;
+  left: 3px;
+  color:white;
+  font-size: 25px;
+  cursor:pointer;
+}
+
+/* the info section */
+
+.info {
+  display: none;
+}
+.info-active{
+  display: flex;
+  flex-direction: column; 
+  padding: 20px;
+}
+
+#title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+#quote{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: grey;
+  font-size: 20px;
+}
+
+#moreInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoTitle{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#moreInfo>div {
+  border-bottom: 1px dashed black;  
+  padding: 8px 0 8px 20px;
+  font-size: 15px;
+}
+
+.skills {  
+  display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  background-color: #f1f1f1; 
+}
+
+.skill {
+  padding: 5px;
+  font-style: italic; 
+  width: 30%; 
+}
+
+.collapsible {
+  background-color: #ccc;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.activeButton, .collapsible:hover {
+  background-color: #999;
+}
+
+#accordionPlusSign, #accordionMinusSign {
+  font-size: 23px;
+}
+
+#accordionSigns{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
