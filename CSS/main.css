@@ -49,15 +49,22 @@ header {
 }
 
 #itemImage {
-  height: 300px;  
   margin-bottom: 5px;
   border-radius: 20px;
 }
 
 #name {
+  position: absolute;
+  top: 90%;
+  left: 7%;
+  color: white;
   font-size: 20px;
   font-weight:bold;
-  margin-bottom: 5px;
+}
+
+#indicator{
+  font-size: 12px;  
+  margin-bottom: 3px;
 }
 
 button {
@@ -82,8 +89,8 @@ button:hover{
 
 #forward{
   position: absolute;
-  top: 133px;
-  left: 196px;
+  top: 38%;
+  left: 88%;
   color: white;
   font-size: 25px;
   cursor: pointer;
@@ -95,8 +102,8 @@ button:hover{
 
 #backward{
   position:absolute;
-  top: 133px;
-  left: 3px;
+  top: 38%;
+  left: 3%;
   color:white;
   font-size: 25px;
   cursor:pointer;
