@@ -14,8 +14,6 @@ let photos = [
         joinedOn:'August 2018'
       },
   
-  
-  
     {     firstName:'Steven',
           lastName:'Nebo',
           title:'Junior Full-stack Developer',

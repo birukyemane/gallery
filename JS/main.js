@@ -21,7 +21,7 @@ let slide = {
         </div>
       </div>`;
       title = `<div id="title">${currentElement.title}</div>`;
-      picture =  `<div id="imgWrapper"><img id ="itemImage" src="/images/${currentElement.src}" alt="${currentElement.alt}">
+      picture =  `<div id="imgWrapper"><img id ="itemImage" src="./images/${currentElement.src}" alt="${currentElement.alt}">
       <i id="forward" class="fa fa-forward" onclick="slide.nextPic()"></i> <i id="backward" class="fa fa-backward" onclick="slide.previousPic()"></i>
       </div>`;
       name =  `<div id="name">${currentElement.firstName} ${currentElement.lastName}</div>`; 
