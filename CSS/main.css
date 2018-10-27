@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../images/groupPic.jpg");
+  background: url("../images/bridge.png");
   background-size:cover;
   background-position:center;
   background-attachment: fixed;
