@@ -12,7 +12,7 @@ let photos = [
         motivatesMe:'Tea',
         favoriteQuote:`I don't know`,
         joinedOn:'August 2018'
-      },
+      }, 
   
     {     firstName:'Steven',
           lastName:'Nebo',
