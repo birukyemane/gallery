@@ -1,4 +1,4 @@
-let photos = [
+let photos = [ 
     {
           firstName: 'Yanze',
         lastName: 'Yu',
