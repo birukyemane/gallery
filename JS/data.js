@@ -11,7 +11,7 @@ let photos = [
         longTermVision:`I don't know`,
         motivatesMe:'Tea',
         favoriteQuote:`I don't know`,
-        joinedOn:'August 2018'
+        joinedOn:'August 2018' 
       }, 
   
     {     firstName:'Steven',
